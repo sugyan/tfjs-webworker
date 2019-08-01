@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>tfjs webworker demo</title>
     <script type="text/javascript" src="/tfjs-webworker/main.js"></script>
   </head>
   <body>
     <pre id="time"></pre>
     <div>
-      <button id="run1">Run in MainThread</button>
-      <button id="run2">Run in WebWorker</button>
+      <button id="run1" style="background-color: lightgray">Run in MainThread</button>
+      <button id="run2" style="background-color: lightgray">Run in WebWorker</button>
     </div>
     <pre id="message"></pre>
   </body>
